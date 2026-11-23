@@ -1,0 +1,25 @@
+ÚLTIMO REFUGIO · CÓMO INSTALARLO EN EL CELULAR
+
+1) SUBIRLO A GITHUB PAGES (una sola vez, mejor desde una computadora)
+   - En github.com creá un repositorio nuevo, por ejemplo "ultimo-refugio", y dejalo Public.
+   - Add file > Upload files: subí TODO lo que trae este zip ya descomprimido
+     (index.html, manifest.webmanifest, sw.js, este archivo y la carpeta icons). No subas el .zip.
+   - Commit changes.
+   - Settings > Pages > Source: Deploy from a branch > rama main, carpeta /(root) > Save.
+   - En 1 o 2 minutos aparece tu link: https://TU-USUARIO.github.io/ultimo-refugio/
+
+2) ANDROID
+   Opción rápida (app instalada):
+   - Abrí el link en Chrome > menú de los 3 puntos > "Instalar app" o "Agregar a la pantalla principal".
+   Opción APK:
+   - Entrá a https://www.pwabuilder.com, pegá tu link y tocá "Package for stores".
+   - Elegí Android > Download Package. El .zip trae un archivo .apk de prueba.
+   - Pasá el .apk al celular, abrilo y aceptá "instalar apps de origen desconocido".
+
+3) IPHONE
+   - Abrí el link en Safari > botón Compartir > "Agregar a pantalla de inicio".
+   - Queda con ícono propio, a pantalla completa y funciona sin internet.
+
+ACTUALIZAR EL JUEGO
+   - Subí el index.html nuevo al mismo repositorio (Add file > Upload files) y reemplazá el anterior.
+   - Los guardados quedan en cada celular (no se comparten con la versión de claude.ai).
